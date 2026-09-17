@@ -74,7 +74,6 @@ export default function HomePage() {
     <>
       {/* Hero */}
       <section className="relative isolate overflow-hidden bg-navy-950 pb-20 pt-32 lg:pb-28 lg:pt-44">
-        <div aria-hidden className="bg-grid absolute inset-0 -z-10 [mask-image:radial-gradient(ellipse_at_top_left,black,transparent_70%)]" />
         <div aria-hidden className="absolute -left-32 -top-32 -z-10 size-144 rounded-full bg-navy-600/40 blur-3xl" />
         <div aria-hidden className="absolute -right-20 bottom-0 -z-10 size-120 rounded-full bg-gold-500/15 blur-3xl" />
 
@@ -207,7 +206,6 @@ export default function HomePage() {
 
       {/* Services */}
       <section className="relative bg-sand-100 py-24 lg:py-32">
-        <div aria-hidden className="bg-grid-dark absolute inset-0 [mask-image:linear-gradient(to_bottom,black,transparent_60%)]" />
         <div className="container-x relative">
           <div className="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
             <Reveal>
@@ -247,7 +245,6 @@ export default function HomePage() {
 
       {/* Integrated solutions */}
       <section className="relative isolate overflow-hidden bg-navy-950 py-24 lg:py-32">
-        <div aria-hidden className="bg-grid absolute inset-0 -z-10 opacity-70" />
         <div aria-hidden className="absolute -right-40 top-20 -z-10 size-136 rounded-full bg-navy-600/40 blur-3xl" />
         <div className="container-x grid items-center gap-16 lg:grid-cols-2">
           <Reveal>
@@ -343,7 +340,6 @@ export default function HomePage() {
         <div className="container-x grid gap-8 lg:grid-cols-[1.1fr_1fr]">
           <Reveal>
             <div className="relative isolate h-full overflow-hidden rounded-4xl bg-navy-800 p-8 sm:p-10">
-              <div aria-hidden className="bg-grid absolute inset-0 -z-10" />
               <div aria-hidden className="absolute -bottom-20 -right-20 -z-10 size-80 rounded-full bg-gold-500/20 blur-3xl" />
               <Eyebrow>Branch network</Eyebrow>
               <h2 className="mt-4 max-w-md text-3xl font-bold leading-tight text-white sm:text-4xl">

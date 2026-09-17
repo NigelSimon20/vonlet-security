@@ -60,7 +60,6 @@ export default async function PostPage({ params }: Props) {
   return (
     <>
       <section className="relative isolate overflow-hidden bg-navy-950 pb-40 pt-36 lg:pb-56 lg:pt-48">
-        <div aria-hidden className="bg-grid absolute inset-0 -z-10 [mask-image:linear-gradient(to_bottom,black,transparent)]" />
         <div aria-hidden className="absolute -left-32 top-10 -z-10 size-96 rounded-full bg-gold-500/15 blur-3xl" />
         <div className="container-x">
           <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "News", href: "/news" }, { label: post.title }]} />

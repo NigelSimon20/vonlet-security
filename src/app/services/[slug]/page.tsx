@@ -42,7 +42,6 @@ export default async function ServicePage({ params }: Props) {
     <>
       {/* Hero */}
       <section className="relative isolate overflow-hidden bg-navy-950 pb-16 pt-32 lg:pb-24 lg:pt-44">
-        <div aria-hidden className="bg-grid absolute inset-0 -z-10 [mask-image:linear-gradient(to_bottom,black,transparent)]" />
         <div aria-hidden className="absolute -right-32 top-0 -z-10 size-128 rounded-full bg-gold-500/15 blur-3xl" />
         <div className="container-x">
           <Breadcrumbs
@@ -230,7 +229,6 @@ export default async function ServicePage({ params }: Props) {
           </nav>
 
           <div className="relative isolate overflow-hidden rounded-3xl bg-navy-950 p-7 text-white">
-            <div aria-hidden className="bg-grid absolute inset-0 -z-10" />
             <div aria-hidden className="absolute -right-10 -top-10 -z-10 size-40 rounded-full bg-gold-500/25 blur-2xl" />
             <h2 className="text-xl font-bold">Have questions?</h2>
             <p className="mt-2 text-sm text-white/60">Speak to our team about {service.title}.</p>

@@ -113,7 +113,6 @@ export default function AboutPage() {
 
       {/* Mission & vision */}
       <section className="relative isolate overflow-hidden bg-navy-950 py-24 lg:py-32">
-        <div aria-hidden className="bg-grid absolute inset-0 -z-10" />
         <div aria-hidden className="absolute left-1/2 top-0 -z-10 size-160 -translate-x-1/2 rounded-full bg-navy-600/40 blur-3xl" />
         <div className="container-x">
           <Reveal>

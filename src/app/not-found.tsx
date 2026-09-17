@@ -5,7 +5,6 @@ import { ButtonLink } from "@/components/ui";
 export default function NotFound() {
   return (
     <section className="relative isolate flex min-h-[80vh] items-center overflow-hidden bg-navy-950 pb-20 pt-40">
-      <div aria-hidden className="bg-grid absolute inset-0 -z-10 [mask-image:radial-gradient(ellipse_at_center,black,transparent_70%)]" />
       <div className="container-x text-center">
         <span className="mx-auto grid size-16 place-items-center rounded-2xl bg-gold-500 text-navy-950">
           <ShieldAlert className="size-8" />

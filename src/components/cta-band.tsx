@@ -17,7 +17,6 @@ export function CtaBand({
     <section className="container-x py-20 lg:py-28">
       <Reveal>
         <div className="relative isolate overflow-hidden rounded-4xl bg-navy-800 px-6 py-14 sm:px-12 lg:px-16 lg:py-20">
-          <div aria-hidden className="bg-grid absolute inset-0 -z-10 opacity-60" />
           <div
             aria-hidden
             className="absolute -right-24 -top-24 -z-10 size-112 rounded-full bg-gold-500/25 blur-3xl"

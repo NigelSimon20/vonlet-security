@@ -34,7 +34,6 @@ export function PageHero({
         />
       )}
       <div aria-hidden className="absolute inset-0 -z-10 bg-linear-to-r from-navy-950 via-navy-950/90 to-navy-950/40" />
-      <div aria-hidden className="bg-grid absolute inset-0 -z-10 [mask-image:linear-gradient(to_bottom,black,transparent)]" />
       <div aria-hidden className="absolute -left-40 top-10 -z-10 size-96 rounded-full bg-gold-500/15 blur-3xl" />
 
       <div className="container-x">

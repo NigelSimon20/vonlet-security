@@ -19,7 +19,6 @@ const featuredServices = [
 export function Footer() {
   return (
     <footer className="relative overflow-hidden bg-ink text-white/60">
-      <div aria-hidden className="bg-grid absolute inset-0 opacity-40 [mask-image:linear-gradient(to_bottom,black,transparent)]" />
       <div className="container-x relative grid gap-12 py-16 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1.3fr] lg:py-20">
         <div>
           <Logo />

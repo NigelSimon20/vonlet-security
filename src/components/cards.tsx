@@ -96,7 +96,7 @@ export function PersonCard({ person, large = false }: { person: Person; large?: 
             className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
           />
         ) : (
-          <div className="bg-grid absolute inset-0 grid place-items-center">
+          <div className="absolute inset-0 grid place-items-center">
             <span className="grid size-24 place-items-center rounded-full border border-gold-500/40 bg-navy-900 font-display text-3xl font-bold text-gold-400">
               {initials(person.name)}
             </span>

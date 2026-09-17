@@ -45,21 +45,6 @@
   }
 }
 
-/* Faint blueprint grid used on dark sections */
-@utility bg-grid {
-  background-image:
-    linear-gradient(to right, rgb(255 255 255 / 0.05) 1px, transparent 1px),
-    linear-gradient(to bottom, rgb(255 255 255 / 0.05) 1px, transparent 1px);
-  background-size: 56px 56px;
-}
-
-@utility bg-grid-dark {
-  background-image:
-    linear-gradient(to right, rgb(37 28 81 / 0.06) 1px, transparent 1px),
-    linear-gradient(to bottom, rgb(37 28 81 / 0.06) 1px, transparent 1px);
-  background-size: 56px 56px;
-}
-
 @layer base {
   html {
     scroll-behavior: smooth;
